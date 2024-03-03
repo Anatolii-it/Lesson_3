@@ -12,20 +12,20 @@ int main() {
         const int SIZE = 5;
         int array[SIZE] = { 1, 2, 3, 4, 5 };
 
-        // Початковий вивід масиву
+        
         cout << "Початковий масив:" << endl;
         for (int i = 0; i < SIZE; ++i) {
             cout << array[i] << " ";
         }
         cout << endl;
 
-        // Покажчик на перший елемент масиву
+        
         int* ptr = array;
 
-        // Покажчик на останній елемент масиву
+       
         int* endPtr = array + SIZE - 1;
 
-        // Проходимося по масиву з обох кінців і замінюємо елементи
+        
         while (ptr < endPtr) {
             
             int temp = *ptr;
@@ -44,7 +44,7 @@ int main() {
         }
         cout << endl;
 
-        return 0;
+       
     
 
 
